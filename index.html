@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Collatz</h2>
+      <input id="user-number" />
+      <button onclick="challenge1()">Find</button>
+      <button onclick="challenge2()">Find for all nos</button>
+      <label for="steps-to-1">Number of steps to reach 1: </label>
+      <textarea
+        id="steps-to-1"
+        placeholder="number of steps to reach 1"
+      ></textarea>
+
+      <label for="highest-number">Highest number reached:</label>
+      <textarea
+        id="highest-number"
+        placeholder="Highest number reached"
+      ></textarea>
+      <label for="highest_number">Highest number: </label>
+      <textarea id="highest_number" placeholder="Highest number"></textarea>
+      <label for="high">Number which reached highest number </label>
+      <textarea
+        id="high"
+        placeholder="Number which reached highest number"
+      ></textarea>
+      <label for="steps-high">Highest number of steps:</label>
+      <textarea
+        id="steps-high"
+        placeholder="Highest number of steps"
+      ></textarea>
+      <label for="number-steps-high"
+        >Number with highest number of steps:</label
+      >
+      <textarea
+        id="number-steps-high"
+        placeholder="Number with highest number of steps"
+      ></textarea>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
